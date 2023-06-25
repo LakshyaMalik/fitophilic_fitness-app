@@ -1,0 +1,83 @@
+
+.diet p{
+    color:#4c002e;
+    margin:12px;
+}
+.sbtn{
+background-color: #4c002e;
+color:#e92c2c;
+display: inline;
+min-width: 10px;
+max-height: fit-content;
+margin:10px auto;
+}
+.diet .sbtn:hover{
+color: #4c002e;
+background-color:#e92c2c;}
+.msg{
+    color:#e92c2c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin:12px;
+}
+
+.btn-bar{
+    background-color: #4c002e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe {
+    margin:0 25px 150px 25px;
+    padding: 20px;
+    background-color: #e92c2c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color:#4c002e;
+}
+
+.recipe img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+  .diet  button{
+      background-color:   #4c002e;
+      color: #e92c2c;
+      font-size: 28px;
+    }
+
+    @media (max-width: 830px){
+        .sbtn{
+            display:block;
+        }
+        .btn-bar{
+            display:block;
+        }
+
+    }
+@media (min-width:1030px){
+    .recipe-list{
+        display:flex;
+    }
+}
+.diet .greet{
+    font-size: 40px;
+    margin:auto;
+    padding:20px;
+    color: #e92c2c;
+    word-wrap: break-word;
+    font-family: cursive;
+  }
+
+  @media (max-width:600px){
+    .diet .greet{
+       font-size:25px;
+     }
+   }

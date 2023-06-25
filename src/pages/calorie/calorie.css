@@ -1,0 +1,43 @@
+.cal{
+  border-radius: 2rem;
+  background-color: #e92c2c;
+  width:330px;
+  margin:25px auto;
+  padding-top: 35px;
+}
+
+.ttl{
+color: #4c002e;
+top:20px;
+margin:20px 2.5px;
+padding-top:10px;
+}
+
+.h1{
+  font-size: 20px;
+  color:#4c002e;
+  margin:10px;
+}
+.text{
+  color:#4c002e;
+  font-size: 15px;
+}
+.calcbtn {
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4c002e;
+  color: #e92c2c;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.time{
+  width:30px;
+}
+.diag{
+  color:#4c002e;
+  background-color: #e92c2c;
+  border-radius: 2rem;
+  padding:20px;
+}

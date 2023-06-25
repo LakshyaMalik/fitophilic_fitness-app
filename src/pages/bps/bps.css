@@ -1,0 +1,40 @@
+.bpm{
+
+    border-radius: 2rem;
+    background-color: #e92c2c;
+    width:330px;
+    margin:25px auto;
+}
+.h1{
+    font-size: 20px;
+    color:#4c002e;
+    margin:10px;
+}
+.text{
+    color:#4c002e;
+    font-size: 15px;
+}
+
+.diag{
+    color:#4c002e;
+    background-color: #e92c2c;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.bptn{
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c002e;
+    color: #e92c2c;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+ .bpm .bptn:hover{
+    background-color: hsl(324, 100%, 15%);
+    color: #e92c2c;
+  }

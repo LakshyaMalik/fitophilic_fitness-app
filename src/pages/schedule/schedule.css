@@ -1,0 +1,104 @@
+.boc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+  }
+  input::placeholder {
+    color: #4c002e;
+  }
+  .wht{
+    font-size: 20px;
+    color: #e92c2c;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .bg{
+      padding: 1.75rem;
+  }
+
+  .BOX{
+    padding: 3px;
+margin: 3px;
+  }
+
+  .input
+    {
+        background-color: #e92c2c;
+        color: #4c002e;
+        padding: 3px 30px;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 10px;
+      }
+  .tag {
+    background-color: #e92c2c;
+    color: #4c002e;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    outline: none;
+    width: 90%;
+    border: 1px solid #e92c2c;
+  }
+
+  .prophand{
+    cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #e92c2c;
+  font-size: 3rem;
+  border-radius: 70%;
+  flex: 1;
+  left:10px;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+  }
+
+    .prophand:focus{
+  outline: none;
+  border: 2px solid;
+  width: 90%;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0 2px;
+  transition: border-color 0.3s ease-in-out;
+  }
+
+  .item {
+    cursor: pointer;
+    width: 100%;
+    border-bottom: 2px solid #e92c2c;
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .propitem{
+    padding-right: 0.75rem;
+    font-size: 16px;
+    color: #e92c2c;
+  }
+
+  .cancel {
+    color: #e92c2c;
+    font-size: 20px;
+  }
+
+  .slate-item{
+    font-size: 20px;
+    color: #e92c2c;
+  }
+
+  .slate-item:hover{
+    color: #e92c2c;
+  }
+
+  .trash {
+    color: #5151d9;
+  }
+  
+  .trash:hover {
+    color: red;
+  }
