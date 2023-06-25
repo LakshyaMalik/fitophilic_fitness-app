@@ -8,7 +8,7 @@ const breakfastRecipes = [
   const lunchRecipes = [
     { id: 1, name: "Mediterranean Quinoa Bowl", quantity: "1 bowl", Cal: 410, image: "https://th.bing.com/th/id/OIP.RwfcAYdm2IDvQhknoFML2wHaLH?pid=ImgDet&rs=1",procedure:"https://youtu.be/47PXsgQWMLU"},
     { id: 2, name: "Tuna Stuffed Avocado", quantity: "1 avocado", Cal: 380, image: "https://th.bing.com/th/id/OIP.Lr20slzQ2SCi5AEdFpmhMAHaE8?pid=ImgDet&rs=1",procedure:"https://youtu.be/94opZaINQnY"},
-    { id: 3, name: "Veggie Wrap", quantity: "1 wrap", Cal: 280, image: "https://th.bing.com/th/id/R.7043a288ad061bdba680393fd36f89c3?rik=SutEiamkPbJYbA&riu=http%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f960x960%2f4552599.jpg&ehk=SxgZzWUEXIS2oVJunkDj2eRkmLce4jTYE0T7up8aJ%2fE%3d&risl=&pid=ImgRaw&r=0",procedure:"https://youtu.be/5r3vjmrXXmI"},
+    { id: 3, name: "Veggie Wrap", quantity: "1 wrap", Cal: 280, image: "https://images.media-allrecipes.com/userphotos/960x960/4552599.jpg",procedure:"https://youtu.be/5r3vjmrXXmI"},
   ];
   
   const dinnerRecipes = [
